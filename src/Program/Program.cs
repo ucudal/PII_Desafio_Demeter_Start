@@ -5,9 +5,8 @@
 //--------------------------------------------------------------------------------
 
 using System;
-using ClassLibrary;
 
-namespace ConsoleApplication
+namespace Ucu.Poo.Cars
 {
     /// <summary>
     /// Programa de consola de demostración.
@@ -19,9 +18,9 @@ namespace ConsoleApplication
         /// </summary>
         public static void Main()
         {
-            var train = new Train();
-            train.StartEngines();
-            Console.WriteLine("Hello World!");
+            Car car = new Car("Ferrari", "488 Spider", 2019);
+            Console.WriteLine(car.ToString());
+            Console.WriteLine("Número de sensores defectuosos: " + car.CountFaultySensors());
         }
     }
 }

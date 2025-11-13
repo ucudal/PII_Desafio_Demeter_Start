@@ -4,5 +4,5 @@
     "cSpell.words": [
         "Doxify"
     ],
-    "dotnet.defaultSolution": "ProjectTemplate.sln"
+    "dotnet.defaultSolution": "Cars.sln"
 }
